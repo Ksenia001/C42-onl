@@ -1,23 +1,23 @@
 package homework_2;
 
-public class Main {
+public class IntroductionToJava {
 
     public static void main(String[] args) {
         System.out.println("--------------------------");
-        doTask1();
+        findValue();
         System.out.println("--------------------------");
-        doTask2();
+        sumTwoDigit();
         System.out.println("--------------------------");
-        doTask3();
+        sumThreeDigit();
         System.out.println("--------------------------");
-        doTask4();
+        doRound();
         System.out.println("--------------------------");
-        doTask5();
+        doDivision();
         System.out.println("--------------------------");
-        doTask6();
+        swapVar();
     }
 
-    public static void doTask1(){
+    public static void findValue(){
         //Написать приложение, которое будет вычислять и выводить значение по формуле:
         // а=4*(b+с-1)/2;
         // b и с задаем в коде самостоятельно.
@@ -27,7 +27,7 @@ public class Main {
         System.out.println("а=4*(b+с-1)/2="+a);
     }
 
-    public static void doTask2() {
+    public static void sumTwoDigit() {
         //В переменной n хранится двузначное число.
         // Создайте программу, вычисляющую и выводящую на экран сумму цифр n.
         // Например: n =26, в результате мы должны получить 8 (2+6).
@@ -38,7 +38,7 @@ public class Main {
         System.out.println("При n="+n+" мы получаем "+a+"+"+b+"="+(a+b));
     }
 
-    public static void doTask3() {
+    public static void sumThreeDigit() {
         //В переменной n хранится трёхзначное число.
         // Создайте программу, вычисляющую и выводящую на экран сумму цифр n.
         // Например: n =126, в результате мы должны получить 9 (1+2+6).
@@ -49,7 +49,7 @@ public class Main {
         System.out.println("При n="+n+" мы получаем "+a+"+"+b+"+"+c+"="+(a+b+c));
     }
 
-    public static void doTask4() {
+    public static void doRound() {
         //В переменной и хранится вещественное число с ненулевой дробной частью.
         //Создайте программу, округляющую число n до ближайшего целого и выводящую результат на экран.
         double n = 123.556;
@@ -57,7 +57,7 @@ public class Main {
         System.out.println(n);
     }
 
-    public static void doTask5() {
+    public static void doDivision() {
         //В переменных q и w хранятся два натуральных числа.
         //Создайте программу, выводящую на экран результат деления q на w с остатком.
         //Пример вывода программы (для случая, когда в q хранится 21, а в w хранится 8):
@@ -67,7 +67,7 @@ public class Main {
         System.out.println(q+"/"+w+" = "+(q/w)+ " и "+(q%w)+" в остатке");
     }
 
-    public static void doTask6(){
+    public static void swapVar(){
         //Написать программу, которая будет менять местами значение целочисленных переменных. Пример:
         //int a = 1; int b = 2; //код (ваше решение) sout(a); //выведет 2
         //sout(b); //выведет 1

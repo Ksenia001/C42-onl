@@ -4,16 +4,16 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class MyClass {
+public class TwoDimensionalArray {
     public static void main(String[] args) {
-        doTask1();
+        calculateModifiedMatrixSum();
         System.out.println("-".repeat(50));
-        doTask2();
+        generateChessboard();
         System.out.println("-".repeat(50));
-        doTask3();
+        generateSnakeMatrix();
     }
 
-    public static void doTask1(){
+    public static void calculateModifiedMatrixSum(){
         //1.1 Создать двумерный массив, заполнить его случайными числами.
         //1.2 Добавить к каждому значению число, которое пользователь будет вводить с консоли.
         //1.3 Найти сумму всех получившихся элементов и вывести в консоль.
@@ -53,7 +53,7 @@ public class MyClass {
         System.out.println("Сумма всех элементов: "+sum);
     }
 
-    public static void doTask2(){
+    public static void generateChessboard(){
         //Создать программу для раскраски шахматной доски с помощью цикла. Создать
         //двумерный массив String 8х8. С помощью циклов задать элементам массива значения
         //B(Black) или W(White). При выводе результат работы программы должен быть
@@ -88,7 +88,7 @@ public class MyClass {
         }
     }
 
-    public static void doTask3(){
+    public static void generateSnakeMatrix(){
         //Даны числа n и m. Создайте массив A[n][m] и заполните его змейкой.
         //Формат входных данных:
         //Программа получает на вход два числа n и m.

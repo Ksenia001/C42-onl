@@ -2,20 +2,20 @@ package homework_3;
 
 import java.util.Scanner;
 
-public class MyClass {
+public class ControlOperators {
     public static void main(String[] args) {
         System.out.println("-".repeat(50));
-        doTask1();
+        isParity();
         System.out.println("-".repeat(50));
-        doTask2();
+        getTempOutside();
         System.out.println("-".repeat(50));
-        doTask3();
+        getSquaresNumbers();
         System.out.println("-".repeat(50));
-        doTask4();
+        getSequence();
         System.out.println("-".repeat(50));
-        doTask5();
+        getSumNum();
     }
-    public static void doTask1(){
+    public static void isParity(){
         //Напишите программу, которая будет принимать на вход число из консоли и на выход
         //будет выводить сообщение четное число или нет. Для определения четности числа
         //используйте операцию получения остатка от деления (операция выглядит так: '% 2').
@@ -25,10 +25,9 @@ public class MyClass {
         int a = sc.nextInt();
 
         System.out.println((a%2==0)?"ЧЁТНОЕ":"НЕЧЁТНОЕ");
-
     }
 
-    public static void doTask2(){
+    public static void getTempOutside(){
         //Для введенного числа t (температура на улице) вывести: Если t>–5, то вывести «Warm».
         //Если –5>= t > –20, то вывести «Normal». Если –20>= t, то вывести «Cold».
         Scanner sc = new Scanner(System.in);
@@ -40,14 +39,14 @@ public class MyClass {
         else System.out.println("Cold");
     }
 
-    public  static void doTask3(){
+    public  static void getSquaresNumbers(){
         //Составьте программу, выводящую на экран квадраты чисел от 10 до 20 включительно.
         for (int i=10; i<=20; i++){
             System.out.println(i*i);
         }
     }
 
-    public  static void doTask4(){
+    public  static void getSequence(){
         //Необходимо, чтоб программа выводила на экран вот такую последовательность:
         //7 14 21 28 35 42 49 56 63 70 77 84 91 98. В решении используйте цикл while.
         int a=7;
@@ -60,7 +59,7 @@ public class MyClass {
         System.out.println();
     }
 
-    public static void doTask5(){
+    public static void getSumNum(){
         //Напишите программу, где пользователь вводит любое целое положительное число. А
         //программа суммирует все числа от 1 до введенного пользователем числа. Для ввода
         //числа воспользуйтесь классом Scanner. Сделать проверку, чтобы пользователь не мог

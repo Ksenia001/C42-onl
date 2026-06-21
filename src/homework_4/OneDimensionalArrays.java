@@ -2,26 +2,26 @@ package homework_4;
 
 import java.util.Arrays;
 
-public class MyClass {
+public class OneDimensionalArrays {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4};
-        doTask1(arr.clone());
+        outputForwardReverse(arr.clone());
         System.out.println("-".repeat(50));
-        doTask2(arr.clone());
+        outputMinMax(arr.clone());
         System.out.println("-".repeat(50));
-        doTask3(arr.clone());
+        outputIndexMinMax(arr.clone());
         System.out.println("-".repeat(50));
-        doTask4(arr.clone());
+        countZero(arr.clone());
         System.out.println("-".repeat(50));
-        doTask5(arr.clone());
+        swapArr(arr.clone());
         System.out.println("-".repeat(50));
-        doTask6(arr.clone());
+        isIncreasing(arr.clone());
         System.out.println("-".repeat(50));
-        doTask7(arr.clone());
+        plusOne(arr.clone());
         System.out.println("-".repeat(50));
     }
 
-    public static void doTask1(int[] arr){
+    public static void outputForwardReverse(int[] arr){
         //Пройти по массиву, вывести все элементы в прямом и в обратном порядке.
 
         System.out.println("Массив в прямом порядке:");
@@ -36,7 +36,7 @@ public class MyClass {
         System.out.print("\n");
     }
 
-    public static void doTask2(int[] arr){
+    public static void outputMinMax(int[] arr){
         //Найти минимальный-максимальный элементы и вывести в консоль.
         int min = arr[0];
         int max = arr[0];
@@ -52,7 +52,7 @@ public class MyClass {
         System.out.println("Максимальный элемент массива: " + max);
     }
 
-    public static void doTask3(int[] arr){
+    public static void outputIndexMinMax(int[] arr){
         //Найти индексы минимального и максимального элементов и вывести в консоль
         int min = arr[0];
         int max = arr[0];
@@ -73,7 +73,7 @@ public class MyClass {
 
     }
 
-    public static void doTask4(int[] arr){
+    public static void countZero(int[] arr){
         //Найти и вывести количество нулевых элементов. Если нулевых элементов нет - вывести
         //сообщение, что их нет.
         int zeroCount = 0;
@@ -88,7 +88,7 @@ public class MyClass {
             System.out.println("Нулевых элементов нет");
     }
 
-    public static void doTask5(int[] arr){
+    public static void swapArr(int[] arr){
         //Пройти по массиву и поменять местами элементы первый и последний, второй и
         //предпоследний и т.д.
         for (int i = 0; i < arr.length/2; i++){
@@ -101,7 +101,7 @@ public class MyClass {
         System.out.println(Arrays.toString(arr));
     }
 
-    public static void doTask6(int[] arr){
+    public static void isIncreasing(int[] arr){
         //Проверить, является ли массив возрастающей последовательностью (каждое следующее
         //число больше предыдущего).
         boolean isSequence  = true;
@@ -119,7 +119,7 @@ public class MyClass {
         }
     }
 
-    public static void doTask7(int[] arr){
+    public static void plusOne(int[] arr){
         //Имеется массив из неотрицательных чисел(любой). Представьте что массив
         //представляет целое число (Например массив {1,2,3} -> 123, {9,9,9} -> 999). Задача
         //добавить единицу к этому “числу” и на выходе получить исправленный массив. Массив не
