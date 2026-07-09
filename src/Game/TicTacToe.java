@@ -94,7 +94,11 @@ public class TicTacToe {
             move ++;
 
             isII = !isII;   //передача хода
-            isWin = isVictory(board);
+
+            if (move>4){
+                isWin = isVictory(board);
+            }
+
         }while(!isWin && move < 9);
 
         if (isWin) {
