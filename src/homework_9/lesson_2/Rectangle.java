@@ -1,0 +1,26 @@
+package homework_9.lesson_2;
+
+public class Rectangle extends Figure {
+    private final double width;
+    private final double height;
+
+    public Rectangle(double width, double height) {
+        this.width = width;
+        this.height = height;
+    }
+
+    @Override
+    public double calculationPerimeter() {
+        return 2*(this.width + this.height);
+    }
+
+    @Override
+    public double calculationArea() {
+        return this.width * this.height;
+    }
+
+    @Override
+    public String toString() {
+        return "Rectangle[" + "width=" + width + ", height=" + height + ']';
+    }
+}
