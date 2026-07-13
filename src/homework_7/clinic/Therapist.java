@@ -4,7 +4,7 @@ package homework_7.clinic;
 public class Therapist extends Doctor {
 
     //конструктор
-    Therapist(String surname,String name) {
+    public Therapist(String surname,String name) {
         super(surname, name);
     }
 

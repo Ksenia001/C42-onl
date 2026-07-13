@@ -15,7 +15,7 @@ package homework_7.clinic;
 public class Dentist extends Doctor {
 
     //конструктор
-    Dentist(String surname, String name) {
+    public Dentist(String surname, String name) {
         super(surname, name);
     }
 

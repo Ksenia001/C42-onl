@@ -3,7 +3,7 @@ package homework_7.clinic;
 //Хирург
 public class Surgeon extends Doctor {
     //конструктор
-    Surgeon(String surname, String name) {
+    public Surgeon(String surname, String name) {
         super(surname, name);
     }
 

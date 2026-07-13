@@ -2,6 +2,12 @@ package homework_8;
 
 public class AnimalMain {
     public static void main(String[] args) {
+
+        //задача со звёздочкой
+        Dog.createSecretDog().eat("Meat");
+        Dog.createSecretDog().voice();
+
+        //основная задача
         Animal[] animal =  {
                 new Dog("Шарик"),
                 new Rabbit("Яша"),

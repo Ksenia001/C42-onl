@@ -4,10 +4,10 @@ package homework_7;
 public class Apple {
     private String color = "green";     //цвет
 
-    Apple(){}
+    public Apple(){}
 
     //конструктор с параметрами
-    Apple(String color) {
+    public Apple(String color) {
         this.color = color;
     }
 

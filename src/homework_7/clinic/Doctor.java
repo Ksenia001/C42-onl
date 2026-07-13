@@ -5,7 +5,7 @@ public class Doctor {
     private String surname;     //фамилия
 
     //конструктор
-    Doctor(String surname, String name) {
+    public Doctor(String surname, String name) {
         this.name = name;
         this.surname = surname;
     }
