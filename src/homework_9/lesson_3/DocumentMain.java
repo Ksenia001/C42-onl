@@ -1,5 +1,5 @@
 package homework_9.lesson_3;
-
+//Самостоятельно изучить и показать пример работы интерфейса-маркера Cloneable.
 public class DocumentMain {
 
     public static void main(String[] args) {
@@ -13,6 +13,4 @@ public class DocumentMain {
         System.out.println("Clone: " + clone);
         System.out.println("Independent: " + (original != clone));
     }
-
-
 }
