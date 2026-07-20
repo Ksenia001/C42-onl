@@ -1,4 +1,4 @@
-package homework_9.lesson_1;
+package homework_9.work;
 
 public class Accountant implements Position {
     @Override

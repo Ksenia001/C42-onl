@@ -1,4 +1,4 @@
-package homework_9.lesson_3;
+package homework_9.documents;
 //Самостоятельно изучить и показать пример работы интерфейса-маркера Cloneable.
 public class DocumentMain {
 

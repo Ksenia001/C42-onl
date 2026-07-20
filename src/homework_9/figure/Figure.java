@@ -1,4 +1,4 @@
-package homework_9.lesson_2;
+package homework_9.figure;
 
 public abstract class Figure {
     public abstract double calculationPerimeter();

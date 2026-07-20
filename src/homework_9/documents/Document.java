@@ -1,4 +1,4 @@
-package homework_9.lesson_3;
+package homework_9.documents;
 
 class Document implements Cloneable{
     private String title;
