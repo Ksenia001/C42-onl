@@ -1,4 +1,4 @@
-package homework_14;
+package homework_14.Shakespeare;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,7 +9,10 @@ import java.util.Scanner;
 //Проанализировать и записать в другой файл самое длинное слово
 public class FileManager {
     public static void main(String[] args) {
-        File file = new File("src/homework_14/Romeo and Juliet.txt");
+        final String pathFile = "src/homework_14/Shakespeare/Romeo and Juliet.txt";
+        final String pathWord = "src/homework_14/Shakespeare/The longest word.txt";
+
+        File file = new File(pathFile);
         String text = "";
         try (Scanner scanner = new Scanner(file)) {
             while (scanner.hasNext()) {
@@ -26,7 +29,7 @@ public class FileManager {
         }
         System.out.println(text);
 
-        File newFile = new File("src/homework_14/The longest word.txt");
+        File newFile = new File(pathWord);
         try(PrintWriter pw = new PrintWriter(newFile);) {
             pw.println(text);
         }catch (FileNotFoundException e) {
