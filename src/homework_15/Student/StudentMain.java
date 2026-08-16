@@ -1,7 +1,6 @@
 package homework_15.Student;
 
 import java.util.Arrays;
-import java.util.List;
 
 //Создать класс Student, содержащий следующие характеристики – имя, группа, курс,
 //оценки по предметам. Создать коллекцию, содержащую объекты класса Student.

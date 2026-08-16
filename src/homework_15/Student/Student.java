@@ -7,7 +7,7 @@ public class Student {
     private String name;
     private int group;
     private int course;
-    private LinkedList<Integer> grades;
+    private List<Integer> grades;
 
     public Student(String name, int group, int course, List<Integer> grades) {
         this.name = name;
